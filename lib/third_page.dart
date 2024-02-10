@@ -7,6 +7,7 @@ class ThirdPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    //it will find where CounterControlllerGetX and   is used to find a Controller that is being used by another page and allows you to access its properties and methods.
     final CounterControlllerGetX controllerGEtX = Get.find();
     return  Scaffold(
       body: Column(
