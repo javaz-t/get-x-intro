@@ -47,11 +47,7 @@ class MyApp extends StatelessWidget {
                     ));
                   },
                 ),
-
-
-
-
-                ElevatedButton(onPressed: (){
+               ElevatedButton(onPressed: (){
                   countGet.reset();
                 }, child: Text('REset')),
               ],
